@@ -1,0 +1,16 @@
+/* Center align all text */
+body {
+    text-align: center;
+}
+
+/* Style images under h2 as a collection */
+h2 + img {
+    display: inline-block;
+    margin: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+h2 + img + img {
+    display: inline-block;
+}
