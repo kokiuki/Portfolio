@@ -1,3 +1,5 @@
+// Ensure the script is connected to the HTML file by adding this line in your index.html:
+// <script src="Javascript.js" defer></script>
 document.addEventListener("DOMContentLoaded", () => {
     const h2Elements = document.querySelectorAll("h1 + h2");
 
