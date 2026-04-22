@@ -36,11 +36,8 @@ const GRAPHIC_DESIGN_DATA = {
       description: 'Part of a Graphic Design A-level project. A series of album cover designs exploring typographic composition, colour theory, and visual identity within the music space.',
       tag: 'Print · Branding',
       images: [
-        // Replace placeholders with real img tags once images are in place:
-        // { src: "Portfolio_files/image001.png", alt: "Album Cover 1", size: "img-square" },
-        { placeholder: true, icon: '🎵', label: 'image001.png — Album Cover 1', size: 'img-square' },
-        { placeholder: true, icon: '🎵', label: 'image003.png — Album Cover 2', size: 'img-square' },
-        { placeholder: true, icon: '🎵', label: 'image005.png — Album Cover 3', size: 'img-square' },
+        { src: "images/church 3.png", alt: "Album Cover 1", size: "img-medium" },
+        { src: "images/Palace Garden 3.png", alt: "Album Cover 2", size: "img-medium" },
       ]
     },
 
@@ -50,8 +47,7 @@ const GRAPHIC_DESIGN_DATA = {
       description: 'Created for a Graphic Design A-level mock exam. The challenge: design a logo for two distinct cuisines — Chilean seafood and German Wurst — merging them into a single cohesive identity.',
       tag: 'Logo · Branding',
       images: [
-        // { src: "Portfolio_files/image007.png", alt: "Fusion Food Logo", size: "img-large" },
-        { placeholder: true, icon: '🍽️', label: 'image007.png — Fusion Food Logo', size: 'img-large' },
+        { src: "images/Klmapus.png", alt: "Fusion Food Logo", size: "img-large" },
       ]
     },
 

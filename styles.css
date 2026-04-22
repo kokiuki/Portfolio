@@ -329,6 +329,18 @@ nav {
   opacity: 0.6;
 }
 
+/* ─── CONTACT ───────────────────────────── */
+.contact {
+  padding: 0 3rem;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--muted);
+  display: flex;
+  gap: 1rem;
+}
+
 /* ─── FOOTER ─────────────────────────────── */
 footer {
   margin-top: 4rem;
