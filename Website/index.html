@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tomás Roa Arenas — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400;500&family=Syne:wght@400;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ── NAV ───────────────────────────────────── -->
+  <nav>
+    <span class="nav-logo"><span>TRA</span> / Portfolio</span>
+    <ul class="nav-links">
+      <li><a href="#work">Work</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ── HERO ──────────────────────────────────── -->
+  <section class="hero">
+    <div class="hero-left">
+      <p class="hero-label">Photography · Film · Design · More</p>
+      <h1 class="hero-name">Tomás<br /><em>Roa</em><br />Arenas</h1>
+      <p class="hero-tagline">A creative portfolio spanning graphic design, filmmaking, photography, and beyond.</p>
+    </div>
+    <div class="hero-right">
+      <div class="hero-divider"></div>
+      <p class="hero-quote">"Design is the silent ambassador of your brand."</p>
+    </div>
+    <span class="scroll-hint">Scroll to view work</span>
+  </section>
+
+  <!-- ── TABS ──────────────────────────────────── -->
+  <section id="work">
+    <div class="tabs-bar">
+      <button class="tab-btn active" data-tab="graphic-design">Graphic Design</button>
+      <button class="tab-btn" data-tab="filmmaking">Filmmaking</button>
+      <button class="tab-btn" data-tab="photography">Photography</button>
+      <button class="tab-btn" data-tab="misc">Miscellaneous</button>
+    </div>
+
+    <!-- Tab Panels — content injected by JS -->
+    <div id="tab-graphic-design" class="tab-panel active"></div>
+    <div id="tab-filmmaking"     class="tab-panel"></div>
+    <div id="tab-photography"    class="tab-panel"></div>
+    <div id="tab-misc"           class="tab-panel"></div>
+  </section>
+
+  <!-- ── FOOTER ──────────────────────────────── -->
+  <footer id="contact">
+    <span>© 2026 Tomás Roa Arenas</span>
+    <span>Design · Film · Photography</span>
+  </footer>
+
+  <!-- ── SCRIPTS ───────────────────────────────── -->
+  <script src="data/graphic-design.js"></script>
+  <script src="data/filmmaking.js"></script>
+  <script src="data/photography.js"></script>
+  <script src="data/misc.js"></script>
+  <script src="tabs.js"></script>
+</body>
+</html>
