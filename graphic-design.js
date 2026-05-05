@@ -53,14 +53,15 @@ const GRAPHIC_DESIGN_DATA = {
 
     // ── PROJECT: MOVIE POSTERS (A-LEVEL ESA) ──────────────────────
     {
-      title: 'Movie Posters',
+      title: 'Film Posters',
       tag: 'Editorial · Print',
-      description: '', // ← Add your description here
+      description: 'Movie Poster Project for my ESA for Graphic Design A-level. Where i designed posters for Films i made up using Illustrator and my own Photography.', 
       images: [
-        // { src: "Portfolio_files/image009.png", alt: "Phone Box poster", size: "img-portrait-lg" },
-        // { src: "Portfolio_files/image011.png", alt: "Juror #2 poster",  size: "img-portrait-lg" },
-        { placeholder: true, icon: '🎬', label: 'image009.png — "Phone Box"',  size: 'img-portrait-lg' },
-        { placeholder: true, icon: '🎬', label: 'image011.png — "Juror #2"', size: 'img-portrait-lg' },
+        { src: "images/Animal World 1.jpeg", alt: "Animal World poster 1", size: "img-medium" },
+        { src: "images/Animal World 2.jpeg", alt: "Animal World poster 2",  size: "img-medium" },
+        { src: "images/Common Side Effect 1.jpeg", alt: "Common side Effect poster 1",  size: "img-medium" },
+        { src: "images/Common Side effect 2.jpeg", alt: "Common Side Effect poster 2",  size: "img-medium" },
+
       ]
     },
 

@@ -12,19 +12,17 @@ const FILMMAKING_DATA = {
 
   projects: [
 
-    // ── PROJECT: A-LEVEL ESA MOVIE POSTERS ───────────────────────
+    // ── PROJECT: Portfolio Short Film ───────────────────────
     {
-      title: 'A-Level ESA',
+      title: 'Portfolio Short Film',
       description: '', // ← Add your description here
-      tag: 'Film · A-Level',
+      tag: 'Film · Portfolio',
       images: [
         // Replace with real paths once images are in place:
         // { src: "DSC_00901.JPG", alt: "Common Side Effect poster 1", size: "img-portrait-lg" },
         // { src: "DSC_00911.JPG", alt: "Common Side Effect poster 2", size: "img-portrait-lg" },
         // { src: "DSC_00971.JPG", alt: "Animal World poster",         size: "img-portrait-lg" },
-        { placeholder: true, icon: '🎬', label: 'DSC_00901.JPG\nCommon Side Effect (1)', size: 'img-portrait-lg' },
-        { placeholder: true, icon: '🎬', label: 'DSC_00911.JPG\nCommon Side Effect (2)', size: 'img-portrait-lg' },
-        { placeholder: true, icon: '🦢', label: 'DSC_00971.JPG\nAnimal World',           size: 'img-portrait-lg' },
+        
       ]
     },
 

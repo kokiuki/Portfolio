@@ -6,7 +6,7 @@
   --border:    #2a2a2a;
   --text:      #e8e4dc;
   --muted:     #6b6762;
-  --accent:    #c8ff00;
+  --accent:    #995a8b;
   --accent2:   #ff6b35;
   --font-head: 'DM Serif Display', serif;
   --font-ui:   'Syne', sans-serif;
@@ -69,22 +69,22 @@ nav {
 .nav-links a { color: var(--muted); transition: color 0.2s; }
 .nav-links a:hover { color: var(--text); }
 
-/* ─── HERO ───────────────────────────────── */
-.hero {
+/* ─── SubText ───────────────────────────────── */
+.SubText {
   min-height: 85vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding-top: 80px;
   position: relative;
 }
-.hero-left {
+.SubText-left {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   padding: 5rem 3rem 4rem;
   border-right: 1px solid var(--border);
 }
-.hero-label {
+.SubText-label {
   font-family: var(--font-mono);
   font-size: 0.7rem;
   letter-spacing: 0.2em;
@@ -92,33 +92,36 @@ nav {
   color: var(--accent);
   margin-bottom: 1.5rem;
 }
-.hero-name {
+.SubText-name {
   font-family: var(--font-head);
   font-size: clamp(3.5rem, 7vw, 6.5rem);
   line-height: 1.0;
   color: var(--text);
 }
-.hero-name em { font-style: italic; color: var(--muted); }
-.hero-tagline {
+.SubText-name em {
+   font-style: italic; color: var(--muted);
+   }
+
+.SubText-tagline {
   margin-top: 2rem;
   font-size: 0.9rem;
   color: var(--muted);
   max-width: 32ch;
   line-height: 1.7;
 }
-.hero-right {
+.SubText-right {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 5rem 3rem;
   gap: 2rem;
 }
-.hero-divider {
+.SubText-divider {
   width: 48px;
   height: 2px;
   background: var(--accent);
 }
-.hero-quote {
+.SubText-quote {
   font-family: var(--font-head);
   font-style: italic;
   font-size: clamp(1.4rem, 2.5vw, 2rem);
