@@ -57,10 +57,10 @@ const GRAPHIC_DESIGN_DATA = {
       tag: 'Editorial · Print',
       description: 'Movie Poster Project for my ESA for Graphic Design A-level. Where i designed posters for Films i made up using Illustrator and my own Photography.', 
       images: [
-        { src: "images/Animal World 1.jpeg", alt: "Animal World poster 1", size: "img-small" },
-        { src: "images/Animal World 2.jpeg", alt: "Animal World poster 2",  size: "img-small" },
-        { src: "images/Common Side Effect 1.jpeg", alt: "Common side Effect poster 1",  size: "img-small" },
-        { src: "images/Common Side effect 2.jpeg", alt: "Common Side Effect poster 2",  size: "img-small" },
+        { src: "images/Animal World 1.jpeg", alt: "Animal World poster 1", size: "img-portrait-lg" },
+        { src: "images/Animal World 2.jpeg", alt: "Animal World poster 2",  size: "img-portrait-lg" },
+        { src: "images/Common Side Effect 1.jpeg", alt: "Common side Effect poster 1",  size: "img-portrait-lg" },
+        { src: "images/Common Side effect 2.jpeg", alt: "Common Side Effect poster 2",  size: "img-portrait-lg" },
 
       ]
     },
